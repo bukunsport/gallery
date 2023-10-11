@@ -1,0 +1,126 @@
+
+body{
+    height: 200vh;
+        background-image: linear-gradient(120deg, #000000 0%, #555151 100%);
+    }
+    
+    /* Header, Navigation Start here */
+header{
+    display: flex;
+    height: 3rem;
+margin-left: 25rem;    
+    }
+         
+    header ul{
+        display: flex;
+      margin-left: 20rem;
+     
+    }
+    
+    header ul li{
+        color: burlywood;
+        font-size: 1rem;
+        list-style: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold; 
+    }
+    
+    header ul li a {
+        text-decoration: none; 
+    }
+
+
+.white{
+    display: end;
+    color: white;
+    font-size: 2em;
+    padding-top: 20px;
+    margin-left: 32rem;
+    
+}
+
+/* Header Ends Here */
+
+
+
+/* Main Start Here - Container */
+
+.container {
+  display:grid;
+  /* height:100vh; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "img1 img1 img3 img3"
+    "img2 img2 img3 img3" 
+    "img4 img4 img5 img5" 
+    "img4 img4 img6 img6";
+  grid-gap:0.5em;
+}
+
+img{
+  position: relative;
+  display:flex;
+  filter:blur(10px);
+}
+/* .cambio{
+    position: absolute;
+} */
+
+
+
+img:hover{
+    font-size: 20px;
+    filter: blur(0px);
+    transition: 2s;
+}
+h3{
+    position: absolute;
+}
+
+#img1{
+    grid-area: img1;
+}
+#img2{
+  grid-area:img2;
+}
+#img3{
+  grid-area:img3;
+}
+#img4{
+  grid-area:img4;
+}
+#img5{
+  grid-area:img5;
+}
+#img6{
+  grid-area:img6;
+}
+.cambio{
+    position: absolute;
+    
+}
+
+
+
+
+
+/* Footer Starts Here */
+.footer{
+   width: 100%;
+    text-align: center;
+    background: black;
+    color:white;
+}
+
+.footer_img {
+        height: 5rem;
+        padding: 15px;
+}   
+
+.social-icon{
+padding: 5px;
+font-size: 10pt;
+}
+
