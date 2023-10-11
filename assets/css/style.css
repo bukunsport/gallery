@@ -29,6 +29,7 @@ margin-left: 25rem;
     
     header ul li a {
         text-decoration: none; 
+        color: burlywood;
     }
 
 
@@ -109,3 +110,8 @@ padding: 5px;
 font-size: 10pt;
 }
 
+
+.a{
+    text-decoration: none;
+    color: white;
+}
