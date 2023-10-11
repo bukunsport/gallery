@@ -1,6 +1,6 @@
 
 body{
-    height: 200vh;
+    /* height: 100vh; */
         background-image: linear-gradient(120deg, #000000 0%, #555151 100%);
     }
     
@@ -56,32 +56,13 @@ margin-left: 25rem;
     "img2 img2 img3 img3" 
     "img4 img4 img5 img5" 
     "img4 img4 img6 img6";
-  grid-gap:0.5em;
-}
-
-img{
-  position: relative;
-  display:flex;
-  filter:blur(10px);
-}
-/* .cambio{
-    position: absolute;
-} */
-
-
-
-img:hover{
-    font-size: 20px;
-    filter: blur(0px);
-    transition: 2s;
-}
-h3{
-    position: absolute;
+  grid-gap:0.5rem;
 }
 
 #img1{
-    grid-area: img1;
+  grid-area: img1;
 }
+
 #img2{
   grid-area:img2;
 }
