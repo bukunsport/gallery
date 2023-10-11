@@ -3,6 +3,9 @@ body{
     display:block ;
     height: 100vh;
         background-image: linear-gradient(120deg, #000000 0%, #555151 100%);
+        background-size: fill;
+        background-position: 100%;
+       
     }
     
     /* Header, Navigation Start here */
@@ -73,6 +76,7 @@ margin-left: 25rem;
   justify-content: center;
   align-items: center;
   filter: blur(5px);
+  font-size: 0px;
 }
 .text1 {
     position: absolute;
@@ -84,6 +88,7 @@ margin-left: 25rem;
 .dogblur:hover{
     filter: blur(0);
     font-size: 20px;
+    transition: 3s;
 }
 
 h3{
@@ -112,17 +117,18 @@ h3::before{
 
 h3:hover::before{
     width: 50px;
-    transition: 3s;
+    transition: 10s;
 }
 
 h3:hover::after{
     width: 50px;
-    transition: 3s;
+    transition: 10s;
 }
 
 
 /* Images Grids start here */
-#img1{ grid-area: img1; 
+#img1{
+grid-area: img1; 
 }
 
 #img2{
