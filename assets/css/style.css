@@ -1,6 +1,6 @@
 
 body{
-    display: grid;
+    display:block ;
     height: 100vh;
         background-image: linear-gradient(120deg, #000000 0%, #555151 100%);
     }
@@ -148,6 +148,8 @@ h3:hover::after{
 
 /* Footer Starts Here */
 .footer{
+    display: relative;
+    height: auto;
    width: 100%;
     text-align: center;
     background: black;
