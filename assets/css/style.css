@@ -61,6 +61,9 @@ margin-left: 25rem;
 
 #img1{
   grid-area: img1;
+  height: 100%;
+  width: 100%;
+ 
 }
 
 #img2{
