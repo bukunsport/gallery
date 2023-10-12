@@ -3,9 +3,11 @@ body{
     display:block ;
     height: 100vh;
         background-image: linear-gradient(120deg, #000000 0%, #555151 100%);
-        background-size: fill;
-        background-position: 100%;
-       
+        background-size: cover;
+    background-position: center;
+    height: auto; 
+    max-width: 100%;
+    max-height: fit-content;
     }
     
     /* Header, Navigation Start here */
@@ -156,10 +158,13 @@ grid-area: img1;
 .footer{
     display: relative;
     height: auto;
-   width: 100%;
     text-align: center;
     background: black;
     color:white;
+    background-size: cover;
+    background-position: center;
+    max-width:100%;
+    max-height: fit-content;
 }
 
 .footer_img {
