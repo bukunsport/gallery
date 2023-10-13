@@ -156,7 +156,7 @@ grid-area: img1;
 
 /* Footer Starts Here */
 .footer{
-    /* display: relative; */
+    position: relative;
     text-align: center;
     background: black;
     color:white;
