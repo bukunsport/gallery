@@ -101,7 +101,7 @@ h3{
 h3::after{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 90%;
     left: 0;
     height: 3px;
     width:15px;
@@ -118,13 +118,13 @@ h3::before{
 }
 
 h3:hover::before{
-    width: 50px;
-    transition: 10s;
+    width: 55px;
+    transition: 3s;
 }
 
 h3:hover::after{
-    width: 50px;
-    transition: 10s;
+    width: 55px;
+    transition: 3s;
 }
 
 
